@@ -9,4 +9,4 @@ class Post(models.Model):
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
-    title2 = models.CharField(max_length=200)
+    title222 = models.CharField(max_length=200)
